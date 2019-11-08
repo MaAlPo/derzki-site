@@ -1,0 +1,175 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font: 14px/1.41 Verdana, Arial, sans-serif;/**/
+    width: 100%;
+    height: 100%;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #fff;
+}
+table{
+    display: block;
+    width: 800px;
+    margin: 50px auto;
+    font-size: 13px;
+    letter-spacing: normal;
+}
+td, th{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #000011;
+    padding: 3px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 25%;
+}
+td:nth-child(3), td:nth-child(4){
+    text-align: left;
+}
+td p{
+    margin: 3px;
+}
+a{
+    text-decoration: none;
+    color: #000011;
+    cursor: pointer;
+}
+.warning{
+    text-align: center;
+}
+.warning h3{
+    display: inline-block;
+}
+.wrapper{
+    position: relative;
+    height: auto !important;
+    height: 100%;
+    min-height: 100% !important;
+    margin-bottom: -30px;
+    min-width: 1040px; /* container +40 */
+    overflow: hidden;
+}
+* html .wrapper{
+    height: 100%;
+}
+.container{
+    width: 1000px; /* or 1100*/
+    margin: 0 auto;
+    height: 100%;
+    min-height: 100% !important;
+}
+.container:after{
+    display: block;
+}
+.content{
+    margin: auto;
+    width: 900px;
+    height: 100%;
+    min-height: 100% !important;
+    overflow: hidden;
+    background-color: #eee;
+    color:#000011;
+    box-shadow: 0 0 50px 5px #000011;
+    padding: 20px;
+}
+.catlog{
+    width: 300px;
+    margin: 50px auto;
+}
+.catlog input, .catlog button, .catlog p{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 10px auto;
+    padding: 3px;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+.catforma{
+    width: 770px;
+    margin: 20px 50px;
+    border: 1px solid #437171;
+    padding: 15px;
+}
+.catforma h4{
+    margin: 5px 0 0 0;
+    text-decoration: underline;
+}
+.catforma span{
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    margin: 5px 0;
+}
+.catforma input{
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    margin: 5px 0;
+    padding: 3px;
+    outline: none;
+    text-align: center;
+}
+.catforma select{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    margin: 5px 0;
+    padding: 3px;
+    outline: none;
+    text-align: center;
+}
+.catforma input[type=checkbox]{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin: 10px 0 0 0;
+}
+.catforma input[type=file]{
+    width: 250px;
+    height: 20px;
+}
+.catforma button{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    outline: none;
+}
+.warning{
+    color: #ff0000;
+    font-weight: bold;
+}
+.fst_tab_col{
+    width: auto;
+}
+.sec_tab_col{
+    width: auto;
+}
+.trd_tab_col{
+    width: 300px;
+}
+.empty{
+    height: 70px;
+}
+footer{
+    border-top: 1px solid #d3d3d3;
+    width: 1040px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: .5;
+    color: #000011;
+    text-transform: none;
+}
+footer a{
+    color: #000011;
+    text-decoration: none;
+    cursor: default;
+}

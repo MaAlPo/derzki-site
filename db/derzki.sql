@@ -29,7 +29,7 @@ CREATE TABLE `cats` (
 -- ----------------------------
 -- Records of cats
 -- ----------------------------
-INSERT INTO `cats` VALUES ('mackaway', 'f0f391655f031d26ed5876d4889ecf45', '4rfc#gf22h');
+INSERT INTO `cats` VALUES ('***', '***', '***');
 
 -- ----------------------------
 -- Table structure for data
